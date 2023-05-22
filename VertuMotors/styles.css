@@ -1,0 +1,485 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background: rgb(255, 255, 255);
+}
+
+@media only screen and (min-width: 900px) {
+  .navbar {
+    display: inline-flex;
+    margin-top: 15px;
+    text-align: center;
+    padding-left: 15%;
+  }
+  #icons {
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    word-spacing: 15px;
+  }
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .heroImgFull {
+    width: 100%;
+  }
+
+  #heroh1 {
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+
+    color: white;
+  }
+
+  #heroB {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    border: none;
+    background-color: turquoise;
+    padding: 15px 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+
+    margin-bottom: 2.5rem;
+    margin-top: 25px;
+  }
+
+  #heroP {
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 20%;
+    color: white;
+  }
+
+  #menu a {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 15px;
+
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  #menu ul li {
+    display: inline-block;
+  }
+
+  #logo img {
+    width: 159px;
+    height: 79.5px;
+    margin-top: -15px;
+  }
+
+  #bar,
+  #callIcon {
+    display: none;
+  }
+
+  #carsh1 {
+    margin-left: 15%;
+  }
+
+  img.heroImg {
+    display: none;
+  }
+
+  h2 {
+    margin-left: 1.5rem;
+  }
+
+  #trims {
+    margin-left: 15%;
+    display: flex;
+  }
+
+  img#M\ 50img,
+  img#M\ Sportimg,
+  img#Sportimg {
+    width: 80%;
+    margin-left: 2rem;
+  }
+
+  div#M\ 50,
+  div#M\ Sport,
+  div#Sport {
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 5px 5px rgb(211, 211, 211);
+    background-color: white;
+    width: 25%;
+    margin-left: 1.25rem;
+    border-radius: 25px;
+    word-spacing: 5px;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  p[id*="Price"] {
+    margin-left: 1.5rem;
+  }
+
+  li[id*="M50"],
+  li[id*="Sport"] {
+    margin-bottom: 10px;
+  }
+
+  #feature1Img {
+    width: 774px;
+    height: 435px;
+    border-radius: 15px;
+    display: -webkit-box;
+    margin-top: 40px;
+    margin-left: 50%;
+  }
+
+  #feature1 {
+    font-size: 20px;
+    display: inline-block;
+    background-color: rgb(243, 241, 241);
+    text-align: left;
+    width: 100%;
+  }
+
+  #featureh1 {
+    text-align: left;
+    position: absolute;
+    text-align: left;
+    margin-top: -20%;
+    margin-left: 10%;
+    width: 20%;
+  }
+
+  #feature1p {
+    position: absolute;
+    text-align: left;
+    margin-top: -12.5%;
+    margin-left: 10%;
+    width: 20%;
+  }
+
+  #featureB {
+    position: relative;
+    border: none;
+    background-color: turquoise;
+    padding: 15px 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-bottom: 5rem;
+  }
+
+  #feature2Img {
+    width: 774px;
+    height: 435px;
+    border-radius: 15px;
+    display: -webkit-box;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+
+  #feature2 {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+  }
+
+  #featureh2 {
+    text-align: left;
+    position: absolute;
+    text-align: left;
+    margin-top: -25%;
+    margin-left: 60%;
+    width: 20%;
+  }
+
+  #feature2p {
+    position: absolute;
+    text-align: left;
+    margin-top: -15%;
+    margin-left: 60%;
+
+    width: 30%;
+  }
+
+  #hours {
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  #hours1 {
+    display: block;
+    text-align: left;
+    width: 50%;
+  }
+
+  #range {
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 9rem;
+  }
+
+  #range1 {
+    display: block;
+    text-align: right;
+    margin-right: 15px;
+    margin-top: -2.8rem;
+  }
+
+  #featureB1 {
+    position: relative;
+    border: none;
+    background-color: turquoise;
+    padding: 15px 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 30%;
+    margin-bottom: 5rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  img.heroImgFull {
+    display: none;
+  }
+
+  img.heroImg {
+    display: block;
+    width: 100%;
+  }
+  img[id*="feature"] {
+    width: 100%;
+  }
+
+  #bar,
+  #searchIcon,
+  #callIcon {
+    display: inline-block;
+  }
+
+  #burger-menu {
+    cursor: pointer;
+    height: 15px;
+    width: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    z-index: 2;
+  }
+
+  #logo {
+    margin-top: -25px;
+    margin-left: -15px;
+  }
+
+  #logo img {
+    margin-top: 5px;
+    width: 175px;
+    height: 75px;
+  }
+  #icons {
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    word-spacing: 15px;
+  }
+  #menu {
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #menu ul li {
+    display: block;
+  }
+
+  .navbar {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  #menu.overlay {
+    visibility: visible;
+    opacity: 1;
+    padding-top: 100px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  #menu li {
+    list-style: none;
+  }
+  #menu a {
+    color: #fff;
+    display: block;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-decoration: none;
+  }
+
+  #hero {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    text-align: center;
+  }
+  #heroP {
+    font-size: 15px;
+  }
+
+  #heroB {
+    border: none;
+    background-color: turquoise;
+    padding: 20px 8rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 5px;
+    margin-bottom: 2.5rem;
+    margin-top: 25px;
+  }
+  #featureB {
+    border: none;
+    background-color: turquoise;
+    padding: 20px 8rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 5px;
+    margin-bottom: 2.5rem;
+    margin-top: 25px;
+    margin-left: 30px;
+  }
+
+  #featureB1 {
+    border: none;
+    background-color: turquoise;
+    padding: 20px 8rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 5px;
+    margin-bottom: 2.5rem;
+    margin-top: 25px;
+    margin-left: 30px;
+  }
+
+  #carsh1 {
+    margin-left: 1.5rem;
+  }
+
+  img#M\ 50img,
+  img#M\ Sportimg,
+  img#Sportimg {
+    width: 80%;
+    margin-left: 2rem;
+  }
+
+  div#M\ 50,
+  div#M\ Sport,
+  div#Sport {
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 5px 5px rgb(211, 211, 211); /* outer cyan */
+    background-color: white;
+    width: 90%;
+    margin-left: 1.25rem;
+    border-radius: 25px;
+    word-spacing: 5px;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+  h2 {
+    margin-left: 1.5rem;
+  }
+  p[id*="Price"] {
+    margin-left: 1.5rem;
+  }
+
+  li[id*="M50"],
+  li[id*="Sport"] {
+    margin-bottom: 10px;
+  }
+
+  #feature1 {
+    background-color: lightgray;
+    text-align: left;
+  }
+
+  #featureh1 {
+    margin-left: 1.5rem;
+  }
+
+  #feature1p {
+    margin-left: 1.5rem;
+  }
+
+  #feature2 {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    text-align: left;
+  }
+
+  #featureh2 {
+    margin-left: 1.5rem;
+  }
+
+  #feature2p {
+    margin-left: 1.5rem;
+  }
+  #hours {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  #hours1 {
+    display: block;
+    text-align: left;
+    width: 40%;
+  }
+
+  #range {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 8rem;
+  }
+
+  #range1 {
+    display: block;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: -2.8rem;
+  }
+}
